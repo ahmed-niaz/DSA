@@ -2,7 +2,7 @@
 
 **Big O Notation** helps us to understand how long an algorithm will take to run [`Time Complexity`] or how much memory it will need as the amount of data it handles grow [`Space Complexity`]
 
-**O(n)**
+**O(n)**➡️
 Signifies that the execution time of the algorithm grows `linearly` in proportion to the size of the `input data (n)`.
 
 🤝As the number of items in the input data increase,the time it takes for the algorithm to run increase correspondingly.
@@ -31,7 +31,7 @@ const searchForItem = (item) =>{
 searchForItem('eggs')
 ```
 
-**O(1)**
+**O(1)** ➡️
 O(1) as known as constant time,signifies that the execution time of an algorithm remains constant regardless of the input size.
 
 🤝 Here we can only care about the specific items which we searching for.It remains constant [`O(1)`].No matter my input grows or shrinks.
@@ -45,7 +45,7 @@ const getElement = (arr,idx) => arr[idx]
 getElement(numbers,1)
 ```
 
-**O(n^2)**
+**O(n^2)**➡️
 Indicates the algorithm's execution time grows quadratically with the size of the input data (represented by n)
 
 🤔 Imagine you have a box of items and want to compare each item with every other item to find specific pairs.As the number of items(n) increase, the number of comparisons(n^2) grows much faster.
@@ -74,3 +74,7 @@ function findPairs(arr) {
 const numbers = [1, 2, 3, 4, 5, 6];
 findPairs(numbers);
 ```
+
+**O(log n)**➡️
+O(log n) time complexity refers to an algorithm`s runtime that grows logarithmically with the size of the input (represented by n).In similar terms as the input size increases,the time it takes for the algorithm to run increase slowly.
+
